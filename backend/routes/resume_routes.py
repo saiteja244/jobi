@@ -69,9 +69,9 @@ Return only JSON:
 
     questions = ask_gpt(prompt)
     if questions.startswith("Gemini Error"):
-    return jsonify({
-        "error": questions
-    }), 500
+        return jsonify({
+            "error": questions
+        }), 500
     
     questions = questions.replace(
     "```json",
