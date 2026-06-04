@@ -7,3 +7,4 @@ pdfplumber
 werkzeug
 google-generativeai
 gunicorn
+sarvamai
