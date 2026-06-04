@@ -14,6 +14,10 @@ stored_resume = ""
 resume_bp = Blueprint("resume_bp", __name__)
 
 UPLOAD_FOLDER = "uploads"
+os.makedirs(
+    UPLOAD_FOLDER,
+    exist_ok=True
+)
 
 
 @resume_bp.route("/upload-resume", methods=["POST"])
