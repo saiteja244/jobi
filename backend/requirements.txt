@@ -6,5 +6,6 @@ requests
 pdfplumber
 werkzeug
 google-generativeai
+google-genai
 gunicorn
 sarvamai
